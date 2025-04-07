@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webpage</title>
+</head>
+<body>
+
+    <h1>My Webpage Content</h1>
+
+    <h2>Ordered List (Roman Numerals)</h2>
+    <ol type="I">
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+        <li>Item Four</li>
+        <li>Item Five</li>
+    </ol>
+
+    <h2>External Image</h2>
+    <img src="https://images.pexels.com/photos/2102416/pexels-photo-2102416.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Beautiful Landscape" width="500">
+
+    <h2>Contact Table</h2>
+    </table> border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Grace Victoria</td>
+                <td>Nairobi</td>
+                <td>0754789654</td>
+                <td>victoriagrace@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Alex Kiu</td>
+                <td>Eldoret</td>
+                <td>0723578654</td>
+                <td>Akiu12@gmail.com</td>
+            </tr>
+            <tr>
+                <td>David Lee</td>
+                <td>Mombasa</td>
+                <td>0714567435</td>
+                <td>davidlee@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Maureen Jane</td>
+                <td>Nairobi</td>
+                <td>0724765098</td>
+                <td>janemaureen23@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Alvin Kimani</td>
+                <td>Kisii</td>
+                <td>0789564890</td>
+                <td>kimanialvin@yahoo.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Registration Form</h2>
+    <form action="/register" method="post">
+        <fieldset>
+            <legend>User Registration</legend>
+
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+
+            <label for="date">Date of Birth:</label><br>
+            <input type="date" id="date" name="date" required><br><br>
+
+            <label for="city">City:</label><br>
+            <select id="city" name="city">
+                <option value="Nrb">Nairobi</option>
+                <option value="Msa">Mombasa</option>
+                <option value="Eld">Eldoret</option>
+                <option value="Ki">Kisii</option>
+                <option value="other">Other</option>
+            </select><br><br>
+
+            <p>Gender:</p>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other_gender" name="gender" value="other">
+            <label for="other_gender">Other</label><br><br>
+
+            <p>Interests:</p>
+            <input type="checkbox" id="sports" name="interests" value="sports">
+            <label for="sports">Sports</label><br>
+            <input type="checkbox" id="music" name="interests" value="music">
+            <label for="music">Music</label><br>
+            <input type="checkbox" id="reading" name="interests" value="reading">
+            <label for="reading">Reading</label><br><br>
+
+            <input type="submit" value="Register">
+            <input type="reset" value="Reset">
+
+        </fieldset>
+    </form>
+
+</body>
+</html>
